@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Simple Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EduLearn</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About EduLearn</h2>
+            <p>EduLearn is a simple educational platform offering free resources.</p>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <ul>
+                <li>Mathematics Basics</li>
+                <li>Introduction to Science</li>
+                <li>English Grammar</li>
+            </ul>
+            <button onclick="showAlert()">Learn More</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
